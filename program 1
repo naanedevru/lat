@@ -1,0 +1,15 @@
+Program-1
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{lipsum}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\lhead{\textbf{title of document}}
+\lfoot{\textbf{JSSATEB}}
+\begin{document}
+\section{section}
+\lipsum[1]
+\section{section}
+\lipsum[2]
+\end{document}
